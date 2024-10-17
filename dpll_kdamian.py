@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 
-'''dpll_kdamian.py'''
+'''dpll_kdamian.py - this program implements a 2SAT solver using the DPLL algorithm'''
 
 import sys
 import csv
+import copy
 
 from typing import List, Dict
 
-def unit_propogation(clauses: List[List[int]], assignments: List[bool], queue: List[List[List[int]]]) -> bool:
+def unit_propogation(clauses: List[List[int]], assignments: List[bool]) -> bool:
     '''unit propogation function'''
     units = [clause[0] for clause in clauses if len(clause) == 1]
 
@@ -23,16 +24,9 @@ def unit_propogation(clauses: List[List[int]], assignments: List[bool], queue: L
             if -unit in clauses[clause]:
                 clauses[clause].remove(-unit) 
 
-    queue.append([clause[:] for clause in clauses])
-    print("ran unit prop")
-    print(clauses)
-    print(assignments)
     return True
-     
-def backtrack(clauses: List[Dict[int, bool]], assignments: List[bool], queue: List[List[List[int]]]) -> None:
-    '''backtracking function'''
 
-def pure_literal_elimination(clauses: List[Dict[int, bool]], assignments: List[bool], queue: List[List[List[int]]]) -> None:
+def pure_literal_elimination(clauses: List[List[int]], assignments: List[bool]):
     '''pure literal elimination function'''
     variables = {}
     pure_literals = set()
@@ -47,44 +41,33 @@ def pure_literal_elimination(clauses: List[Dict[int, bool]], assignments: List[b
             if variables[literal] > 1:
                 pure_literals.add(literal)
 
+    if not pure_literals: 
+        return False
+
     for literal in pure_literals:
         if literal > 0:
             assignments[literal - 1] = True
         else:
             assignments[-literal - 1] = False
         clauses[:] = [clause for clause in clauses if literal not in clause]
-        
-    print(variables)
-    print(pure_literals)
-    print(assignments)
-    print(clauses)
 
-def dpll_algorithm(clauses: List[Dict[int, bool]], assignments: List[bool], queue: List[List[List[int]]]) -> None:
+    return True
+
+def dpll_algorithm(clauses: List[List[int]], assignments: List[bool]) -> bool:
     '''dpll algorithm'''
-    run = True
-    while run:
-        run = unit_propogation(clauses, assignments, queue)
-        if not clauses:
-            print(f"satisfiable: variable assignments = {assignments}")
-            print(f"queue after = {assignments}")
-            print()
-            return
-        continue
-    print(f"unsatisfied after unit prop: variable assignments = {assignments}")
-    print(f"queue after = {assignments}")
-    run = True
-    while run:
-        run = pure_literal_elimination(clauses, assignments, queue)
-        if not clauses:
-            print(f"satisfiable: variable assignments = {assignments}")
-            print(f"queue after = {assignments}")
-            print()
-            return
-        continue 
-    print(f"unsatisfied after pure literal elimination: variable assignments = {assignments}")
-    print(f"queue after = {assignments}")
-    print()
-    return
+
+    found_unit = True
+    while found_unit:
+        found_unit = unit_propogation(clauses, assignments)
+    print("clauses after unit prop while:")
+    print(clauses)
+    pure_literal_elimination(clauses, assignments)
+    if not clauses:
+        return True
+    if any(len(c) == 0 for c in clauses):
+        return False
+    l = clauses[0][0]
+    return dpll_algorithm(clauses + [[l]], assignments) or dpll_algorithm(clauses + [[-l]], assignments)
 
 def main(arguments=sys.argv[1:], stream=sys.stdin) -> None:
     '''main function'''
@@ -96,7 +79,6 @@ def main(arguments=sys.argv[1:], stream=sys.stdin) -> None:
                 problem = int(line[1])
                 clause = 0
                 clauses = []
-                queue = []
                 print(f'Problem {problem}')
             elif line[0] == 'p':
                 n_vars = int(line[2])
@@ -104,18 +86,19 @@ def main(arguments=sys.argv[1:], stream=sys.stdin) -> None:
                 assignments = [None] * n_vars
             else:
                 clauses.append([])
-                i = 0
                 for literal in line[:-1]:
                     if int(literal) == 0:
                         clause += 1
                         continue
                     clauses[clause].append(int(literal))
                 if clause > n_clauses - 1:
+                    print("original clauses:")
                     print(clauses)
-                    queue.append([clause[:] for clause in clauses])
-                    print("original queue")
-                    print(queue)
-                    dpll_algorithm(clauses, assignments, queue)
+                    sat = dpll_algorithm(clauses, assignments)
+                    if sat:
+                        print("SATISFIABLE")
+                    else:
+                        print("UNSATISFIABLE")
                     continue
     
 if __name__ == '__main__':
