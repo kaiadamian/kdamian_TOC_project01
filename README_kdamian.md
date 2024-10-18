@@ -1,5 +1,7 @@
 # kdamian_TOC_project01
 
+(PDF in Gradescope - I couldn't upload a readable pdf to the repository)
+
 Team name: kdamian
 
 Names of all team members: Kaia Damian
