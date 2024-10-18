@@ -4,7 +4,7 @@ Team name: kdamian
 Names of all team members: Kaia Damian
 Link to github repository: https://github.com/kaiadamian/kdamian_TOC_project01.git
 Which project options were attempted: 2-SAT DPLL Solver 
-Approximately total time spent on project: 
+Approximately total time spent on project: 15 hours 
 The language you used, and a list of libraries you invoked.
 How would a TA run your program (did you provide a script to run a test case?)
 A brief description of the key data structures you used, and how the program functioned.
