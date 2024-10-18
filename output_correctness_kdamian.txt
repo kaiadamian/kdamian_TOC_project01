@@ -1,0 +1,302 @@
+Problem 1000
+satisfiable: final assignments = [True, False, False, False]
+
+Problem 1001
+unsatisfiable: final assignments = [True, False, True, False]
+
+Problem 1002
+satisfiable: final assignments = [True, True, True, False]
+
+Problem 1003
+satisfiable: final assignments = [False, True, False, True]
+
+Problem 1004
+unsatisfiable: final assignments = [True, False, False, True]
+
+Problem 1005
+unsatisfiable: final assignments = [True, False, False, False]
+
+Problem 1006
+unsatisfiable: final assignments = [True, True, True, False]
+
+Problem 1007
+satisfiable: final assignments = [False, False, None, True]
+
+Problem 1008
+satisfiable: final assignments = [False, False, False, True]
+
+Problem 1009
+satisfiable: final assignments = [False, True, False, False]
+
+Problem 1010
+satisfiable: final assignments = [True, False, False, False, False, False, False, True]
+
+Problem 1011
+satisfiable: final assignments = [False, True, False, True, False, True, True, False]
+
+Problem 1012
+satisfiable: final assignments = [False, True, True, False, True, False, True, True]
+
+Problem 1013
+unsatisfiable: final assignments = [False, True, False, True, False, True, False, False]
+
+Problem 1014
+unsatisfiable: final assignments = [True, True, True, False, False, None, False, False]
+
+Problem 1015
+unsatisfiable: final assignments = [True, False, False, False, False, None, False, True]
+
+Problem 1016
+unsatisfiable: final assignments = [True, False, False, True, True, False, False, False]
+
+Problem 1017
+satisfiable: final assignments = [True, False, True, False, False, True, True, False]
+
+Problem 1018
+satisfiable: final assignments = [True, False, True, False, False, False, True, False]
+
+Problem 1019
+unsatisfiable: final assignments = [False, True, True, False, True, False, False, False]
+
+Problem 1020
+unsatisfiable: final assignments = [True, False, True, False, False, False, False, True, True, True, True, None]
+
+Problem 1021
+satisfiable: final assignments = [None, False, True, False, False, True, False, True, False, True, True, True]
+
+Problem 1022
+satisfiable: final assignments = [True, False, True, None, False, True, None, False, False, False, True, True]
+
+Problem 1023
+satisfiable: final assignments = [None, True, False, False, True, True, True, True, True, True, False, True]
+
+Problem 1024
+satisfiable: final assignments = [True, True, False, False, True, True, False, True, True, True, False, True]
+
+Problem 1025
+satisfiable: final assignments = [False, False, True, False, False, False, True, True, False, True, True, True]
+
+Problem 1026
+unsatisfiable: final assignments = [False, True, False, True, True, False, False, True, True, True, False, True]
+
+Problem 1027
+unsatisfiable: final assignments = [True, True, False, True, False, True, False, False, False, True, False, False]
+
+Problem 1028
+unsatisfiable: final assignments = [False, False, True, False, True, True, False, False, True, True, True, True]
+
+Problem 1029
+unsatisfiable: final assignments = [False, False, True, True, True, False, False, False, False, True, None, False]
+
+Problem 1030
+satisfiable: final assignments = [False, True, True, False, True, False, True, False, False, True, False, True, True, False, True, True]
+
+Problem 1031
+unsatisfiable: final assignments = [False, True, True, False, False, False, False, True, True, True, True, False, True, False, True, False]
+
+Problem 1032
+satisfiable: final assignments = [False, True, True, False, False, False, False, True, True, False, True, True, True, False, False, None]
+
+Problem 1033
+satisfiable: final assignments = [True, False, True, True, False, True, False, False, False, True, True, False, False, False, False, False]
+
+Problem 1034
+unsatisfiable: final assignments = [False, True, False, False, False, True, False, True, False, False, False, True, True, False, True, False]
+
+Problem 1035
+satisfiable: final assignments = [False, False, False, False, True, True, False, True, False, True, True, True, True, True, False, False]
+
+Problem 1036
+unsatisfiable: final assignments = [True, False, False, False, True, True, True, False, False, True, False, False, False, True, True, True]
+
+Problem 1037
+satisfiable: final assignments = [True, False, False, True, False, False, True, False, False, False, False, False, False, True, True, False]
+
+Problem 1038
+unsatisfiable: final assignments = [None, False, True, True, True, True, None, False, False, False, False, False, False, False, True, True]
+
+Problem 1039
+satisfiable: final assignments = [True, False, False, False, False, False, True, True, False, False, False, None, False, False, False, True]
+
+Problem 1040
+unsatisfiable: final assignments = [True, None, None, None, True, True, True, False, True, True, True, True, False, True, True, False, True, False]
+
+Problem 1041
+unsatisfiable: final assignments = [False, True, True, False, True, False, False, True, True, None, True, True, False, True, True, False, False, True]
+
+Problem 1042
+unsatisfiable: final assignments = [True, None, True, True, False, False, False, True, None, False, False, True, True, None, False, False, False, True]
+
+Problem 1043
+satisfiable: final assignments = [False, False, False, True, False, False, True, False, True, False, False, False, True, True, True, False, True, True]
+
+Problem 1044
+unsatisfiable: final assignments = [False, False, False, True, False, False, True, False, False, None, False, False, False, True, True, False, True, False]
+
+Problem 1045
+satisfiable: final assignments = [True, True, True, False, True, True, False, True, False, True, True, False, True, True, True, True, False, False]
+
+Problem 1046
+satisfiable: final assignments = [True, True, True, True, False, False, True, False, True, True, False, False, False, False, None, False, False, False]
+
+Problem 1047
+unsatisfiable: final assignments = [True, True, False, False, True, False, False, True, True, False, False, False, True, False, True, False, False, False]
+
+Problem 1048
+satisfiable: final assignments = [True, True, False, True, False, True, True, False, True, False, True, None, False, False, False, None, False, False]
+
+Problem 1049
+unsatisfiable: final assignments = [True, True, True, False, True, False, None, False, True, None, False, True, None, True, False, True, False, True]
+
+Problem 1050
+unsatisfiable: final assignments = [False, True, True, None, None, False, True, None, False, False, True, False, False, False, True, True, True, True, False, True]
+
+Problem 1051
+satisfiable: final assignments = [None, False, True, True, False, False, True, True, True, True, False, True, False, True, False, True, False, True, True, None]
+
+Problem 1052
+satisfiable: final assignments = [True, True, False, True, False, None, False, None, False, True, False, False, True, True, False, True, False, False, True, True]
+
+Problem 1053
+satisfiable: final assignments = [False, False, None, None, False, True, False, True, False, None, True, True, True, False, True, False, False, False, True, True]
+
+Problem 1054
+unsatisfiable: final assignments = [None, False, False, True, True, False, True, None, None, False, True, True, True, False, True, True, True, False, True, False]
+
+Problem 1055
+unsatisfiable: final assignments = [False, True, True, True, False, False, None, True, True, False, True, False, False, False, True, False, True, True, True, False]
+
+Problem 1056
+unsatisfiable: final assignments = [True, True, False, True, True, True, True, None, True, True, False, False, False, True, False, None, True, None, False, False]
+
+Problem 1057
+satisfiable: final assignments = [None, False, True, False, False, False, True, False, False, False, False, True, None, True, True, True, False, False, True, False]
+
+Problem 1058
+unsatisfiable: final assignments = [False, False, True, True, False, False, False, False, False, True, False, True, False, True, False, False, False, True, False, False]
+
+Problem 1059
+unsatisfiable: final assignments = [True, True, False, False, None, True, False, True, None, False, True, True, True, True, False, True, True, False, True, False]
+
+Problem 1060
+satisfiable: final assignments = [False, True, True, False, True, False, False, False, False, None, False, False, True, True, False, False, True, None, None, False, False, False]
+
+Problem 1061
+satisfiable: final assignments = [True, True, False, False, None, True, True, True, True, False, True, None, True, False, False, True, True, True, False, True, True, True]
+
+Problem 1062
+unsatisfiable: final assignments = [True, False, True, True, True, False, True, False, True, False, True, False, False, True, False, True, False, False, True, False, False, True]
+
+Problem 1063
+satisfiable: final assignments = [None, None, False, False, None, False, False, False, True, True, True, True, True, True, True, True, True, False, True, False, True, True]
+
+Problem 1064
+satisfiable: final assignments = [True, True, False, True, False, False, True, False, True, True, False, True, False, True, False, True, None, False, True, True, False, True]
+
+Problem 1065
+satisfiable: final assignments = [False, False, True, False, True, True, False, False, False, False, False, False, True, True, True, False, True, None, False, True, None, False]
+
+Problem 1066
+unsatisfiable: final assignments = [False, True, False, False, True, True, True, True, False, True, False, True, True, False, False, True, True, False, True, True, True, True]
+
+Problem 1067
+unsatisfiable: final assignments = [False, False, True, False, True, False, True, False, True, True, False, True, False, False, False, True, False, True, False, False, True, False]
+
+Problem 1068
+satisfiable: final assignments = [False, True, True, True, False, True, False, True, True, True, False, True, True, True, False, False, True, False, False, True, True, False]
+
+Problem 1069
+unsatisfiable: final assignments = [True, False, False, False, False, False, True, True, True, True, True, True, False, False, False, True, True, True, True, False, True, None]
+
+Problem 1070
+unsatisfiable: final assignments = [True, False, True, False, False, None, True, True, True, None, True, True, False, True, False, False, False, None, True, False, True, True, True, True]
+
+Problem 1071
+satisfiable: final assignments = [False, True, True, True, False, True, False, True, False, False, True, False, True, True, True, False, True, False, True, False, None, True, True, False]
+
+Problem 1072
+satisfiable: final assignments = [False, True, False, False, False, False, True, True, False, False, True, True, False, None, True, True, False, False, True, False, True, False, False, False]
+
+Problem 1073
+unsatisfiable: final assignments = [True, True, True, True, False, False, False, True, True, True, True, False, True, True, True, True, False, True, True, True, True, True, True, True]
+
+Problem 1074
+unsatisfiable: final assignments = [False, True, True, True, False, False, True, True, False, True, False, True, False, False, True, True, True, True, True, True, False, True, True, False]
+
+Problem 1075
+unsatisfiable: final assignments = [True, True, True, False, False, False, False, False, False, False, True, False, True, True, True, False, True, None, True, False, False, True, True, True]
+
+Problem 1076
+satisfiable: final assignments = [False, True, True, True, True, False, None, False, True, False, False, False, True, True, True, None, True, False, False, False, False, False, False, True]
+
+Problem 1077
+unsatisfiable: final assignments = [False, True, None, True, True, False, True, True, True, False, False, True, False, False, True, True, True, False, True, True, True, True, False, True]
+
+Problem 1078
+satisfiable: final assignments = [True, True, False, False, False, False, None, True, True, True, False, False, True, False, True, False, False, True, True, True, True, False, False, True]
+
+Problem 1079
+satisfiable: final assignments = [None, True, True, True, False, None, False, False, None, True, False, False, True, False, True, True, False, True, False, False, True, True, True, False]
+
+Problem 1080
+unsatisfiable: final assignments = [False, True, False, True, False, False, True, False, True, True, True, True, True, True, False, True, True, None, True, False, True, True, True, True, False, False]
+
+Problem 1081
+satisfiable: final assignments = [True, True, False, True, True, None, True, False, True, False, True, False, True, True, True, True, False, True, False, False, False, True, False, False, False, False]
+
+Problem 1082
+unsatisfiable: final assignments = [True, False, False, False, False, False, False, False, False, None, False, True, True, False, True, True, True, False, False, True, True, True, False, True, None, True]
+
+Problem 1083
+unsatisfiable: final assignments = [True, False, True, False, False, True, False, True, True, True, True, None, True, False, False, True, True, True, False, False, True, True, None, True, True, False]
+
+Problem 1084
+unsatisfiable: final assignments = [None, True, True, True, True, False, True, False, False, True, False, True, False, False, True, False, True, True, None, True, True, False, None, True, False, True]
+
+Problem 1085
+unsatisfiable: final assignments = [True, None, False, False, False, False, False, False, True, False, False, None, False, True, False, True, False, False, False, None, False, True, False, True, False, True]
+
+Problem 1086
+satisfiable: final assignments = [True, False, True, False, True, False, True, True, True, True, True, True, False, True, False, False, None, False, False, False, False, True, False, True, True, True]
+
+Problem 1087
+satisfiable: final assignments = [True, False, False, None, False, False, False, True, False, None, False, True, True, True, True, True, True, False, False, True, False, False, True, None, False, True]
+
+Problem 1088
+unsatisfiable: final assignments = [True, False, False, False, False, False, True, None, False, True, True, True, True, None, True, True, True, True, True, False, True, False, None, False, True, True]
+
+Problem 1089
+satisfiable: final assignments = [None, False, False, False, False, False, False, False, None, None, True, True, False, True, True, False, True, False, True, False, False, False, True, False, False, True]
+
+Problem 1090
+unsatisfiable: final assignments = [False, True, False, False, False, False, False, False, False, True, False, False, True, False, True, True, True, True, True, True, True, True, True, True, False, True, True, True]
+
+Problem 1091
+satisfiable: final assignments = [False, False, False, False, False, True, True, False, False, False, True, False, True, True, True, False, True, False, False, True, False, False, False, True, True, True, True, False]
+
+Problem 1092
+unsatisfiable: final assignments = [False, True, True, True, False, False, True, True, False, True, False, True, True, False, False, True, None, False, False, False, False, False, False, True, True, True, True, None]
+
+Problem 1093
+unsatisfiable: final assignments = [False, False, None, False, True, True, True, True, None, False, False, False, False, True, False, True, True, True, False, True, False, False, True, False, True, False, True, False]
+
+Problem 1094
+unsatisfiable: final assignments = [True, True, False, False, False, True, False, False, False, True, False, False, True, None, True, False, False, False, True, True, False, True, True, True, True, False, True, None]
+
+Problem 1095
+satisfiable: final assignments = [False, None, True, False, True, False, False, False, False, False, False, False, True, True, False, False, True, False, False, True, False, False, False, True, False, False, True, False]
+
+Problem 1096
+satisfiable: final assignments = [False, False, True, False, True, False, True, False, False, False, False, False, True, False, None, False, False, False, True, False, True, False, True, False, False, None, True, False]
+
+Problem 1097
+satisfiable: final assignments = [True, False, False, False, False, True, None, True, False, None, True, False, True, True, True, True, True, True, True, False, True, True, False, False, False, True, True, False]
+
+Problem 1098
+unsatisfiable: final assignments = [True, True, True, True, True, False, False, True, False, True, False, True, True, False, False, True, True, False, True, True, True, None, False, True, False, False, False, False]
+
+Problem 1099
+satisfiable: final assignments = [False, True, True, False, True, True, True, True, True, True, False, False, False, True, False, True, False, False, False, True, True, False, True, False, False, None, True, None]
+
+TOTAL SATISFIABLE: 50
+TOTAL UNSATISFIABLE: 50
