@@ -1,3 +1,4 @@
+input: check-kdamian.csv evaluated by dpll_kdamian.py
 Problem 1000
 satisfiable: final assignments = [True, False, False, False]
 
